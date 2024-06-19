@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  python:
+    build:
+      context: .
+      dockerfile: ./compose/python/Dockerfile
+    env_file:
+      - ./.envs/.python
+    ports:
+      - "8000:8000"
+    command: python run.py

@@ -1,0 +1,6 @@
+langchain==0.1.17
+python-docx
+openai
+chromadb
+flask
+PyPDF2
